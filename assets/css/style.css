@@ -1,0 +1,189 @@
+*{
+    margin:0px;
+    padding:0px;    
+    
+}
+
+body{
+    background-color:#DBDBDB;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* header */
+.header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#706D54;        
+    width: 100vw;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    list-style: none;    
+}
+
+a{
+    text-decoration: none;
+    color: #d6b982;    
+}
+
+.picture img{  
+    display: block;
+    margin :auto; 
+    border-radius: 50%; 
+}
+
+.picture{
+    width: 100%;
+}
+h1{
+    color: #d6b982;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/* main */
+main{
+    flex:1; 
+    background-color:#DBDBDB;  
+}
+h2{
+    color: #706D54;  
+    text-align: center; 
+    margin-bottom: 20px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    border-radius: 10px;
+    background-color:#C9B194;
+    border:solid 2px #C9B194 ;
+    margin:auto;
+}
+
+/* section{
+    margin:20px;    
+
+} */
+
+
+
+/* section 1 presentation */
+.box{
+    display: flex;
+    flex-direction: column;
+} 
+.box img{
+    margin:auto;
+}
+
+.imgbox{
+    height:200px;
+    width: 200px;
+    /* margin:10px; */
+    border-radius: 5px;
+    /* float:left; */
+}
+
+.para1{   
+   padding-top: 20px;
+   justify-content:center;
+   margin:10px; 
+   font-size: 20px;      
+} 
+/* section 2 services */
+
+ul{
+    list-style: none; 
+}
+
+.para2{
+    padding-top:10px;
+    justify-content:center;
+    margin:10px; 
+    font-size: 20px;
+}
+
+/* section 3 contact */
+
+.para3{
+    font-size: 20px;
+}
+.button{
+    background-color: #706D54;
+    color: #d6b982;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+footer{
+    display:flex;
+    flex-direction: column;
+    background-color: #706D54;
+    color:#d6b982;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100vw;
+    margin-top: 10px;
+}
+
+/* css pour formulaire */
+.form{
+    align-items: center;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap:10px;  
+    
+}
+
+#message{
+    width: 80%;
+    height: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid 2px #706D54;
+}
+
+#email, #nom{
+    width: 80%;
+    height: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid 2px #706D54;
+}
+
+#objet{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid 2px #706D54;
+}
+.button-form{ 
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+
+}
