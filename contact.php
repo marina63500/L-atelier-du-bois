@@ -5,7 +5,7 @@
     <div class="form-container">
         <h2><?php echo "Formulaire de contact" ?></h2><br>
 
-        <form method="post" action="" class="form">
+        <form method="post" action="#" class="form">
 
             <label for="nom">Votre Nom</label>
             <input id="nom" type="text" name="nom" required><br><br>
@@ -25,7 +25,7 @@
             </select><br><br>
 
             <label for="message">Message</label>
-            <textarea name="message" id="message" row="5" placeholder="Entrez votre message ici"></textarea>
+            <textarea  type='textarea' name="message" id="message" row="5" placeholder="Entrez votre message ici"></textarea>
 
             <div class="button-form">
                 <input type="submit" class="button" value="Valider">
