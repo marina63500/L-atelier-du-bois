@@ -13,6 +13,7 @@
 
             <label for="email">Votre email</label>
             <input id="email" type="email" name="email" required><br><br>
+            <span class="error" aria-live="polite"></span>
 
 
             <label for="objet">Objet</label>

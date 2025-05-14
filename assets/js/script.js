@@ -32,5 +32,39 @@ form.addEventListener("submit", (event) => {
 });
 
    
+// -----------------------------------------------------------------------
+// 2eme méthode de vérification pas terminé et fait juste pour le mail
 
-   
+    // const form = document.querySelector('form');
+ // On récupère la valeur des champs input name/email/message
+    // let nom = document.getElementById('nom');
+    // let email = document.getElementById('email');
+    // let message = document.getElementById('message');
+
+    // let error = document.querySelector(".error");
+
+    // email.addEventListener("input", (event) =>{
+    // Chaque fois que l'utilisateur saisit quelque chose
+    // on vérifie la validité du champ e-mail.
+    // if (email.validity.valid) {
+    //   S'il y a un message d'erreur affiché et que le champ
+    // est valide, on retire l'erreur
+//       error.innerHTML = ""; // On réinitialise le contenu
+//       error.className = "error"; // On réinitialise l'état visuel du message
+//     }
+//   },
+//   false,
+// );
+// form.addEventListener("submit", (event)=> {
+    // Chaque fois que l'utilisateur tente d'envoyer les données
+    // on vérifie que le champ email est valide.
+    // if (!email.validity.valid) {
+      // S'il est invalide, on affiche un message d'erreur personnalisé
+    //   error.innerHTML ="J'attends une adresse e-mail correcte, mon cher&nbsp;!";
+    //   error.className = "error active";
+      // Et on empêche l'envoi des données du formulaire
+//       event.preventDefault();
+//     }
+//   },
+//   false,
+// );
